@@ -11,5 +11,5 @@ jobs:
       if: github.event_name == 'issues' && github.event.action == 'opened'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_PROJECT_URL: https://github.com/scgbear/kanban-template/projects/1
-        GITHUB_PROJECT_COLUMN_NAME: Triage
+        GITHUB_PROJECT_URL: https://github.com/users/scgbear/projects/1
+        GITHUB_PROJECT_COLUMN_NAME: New
